@@ -1,0 +1,12 @@
+{
+  "vendor": "Corner Hardware Co.",
+  "date": "2026-11-14",
+  "currency": "USD",
+  "line_items": [
+    { "description": "Wood screws 50pk (x2)", "amount_cents": 1398 },
+    { "description": "Paint roller set", "amount_cents": 1149 },
+    { "description": "Masking tape", "amount_cents": 425 }
+  ],
+  "tax_cents": 245,
+  "total_cents": 3217
+}

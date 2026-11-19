@@ -1,0 +1,20 @@
+{
+  "name": "small-biz-automations",
+  "version": "1.0.0",
+  "description": "AI automations small businesses actually pay for: receipt extraction and customer-email triage, with code checks around every model call and a cost receipt per run.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js",
+    "demo": "npm run build && node dist/src/cli.js receipt examples/receipt.txt --dry-run && node dist/src/cli.js inquiry examples/inquiry.txt --dry-run"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
